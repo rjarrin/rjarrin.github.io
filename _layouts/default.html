@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+  
+  <head> 
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>rjarrin.github.io</title>
+  
+    <!-- Required for css linking. Referenced from molpopgen (https://github.com/molpopgen) -->
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    
+    <meta name="viewport" content="width=device-width">
+  </head>
+  
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>RJ GitHub Pages</h1>
+        <p>A simple website for a university student</p>
+        <a href="http://rjarrin.github.io">Home</a> <br>
+        <a href="http://rjarrin.github.io/docs/md/teaching.html">Teaching Files</a> <br>
+        <a href="http://rjarrin.github.io/docs/md/project.html">Projects</a> <br>
+        
+        <!--
+        <a href="http://rjarrin.github.io/docs/md/another-page.html">New Page</a> <br>
+        -->
+        
+        <a href="https://courselink.uoguelph.ca/shared/login/login.html">Courselink</a>
+      </header>
+      <section>
+        {{ content }}
+      </section>
+      <footer>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    
+     <!-- Required for script linking. Referenced from molpopgen (https://github.com/molpopgen) -->
+    <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
+  </body>
+</html>

@@ -13,5 +13,7 @@
 ---
 * [Makefiles](https://rjarrin.github.io/docs/tutorials/makefiles.html)
 * *Object (.o) Files and their uses*
+* *Dynamic memory and valgrind*
+
 
 *&copy;2019 Not to be duplicated or redistributed without author permission*

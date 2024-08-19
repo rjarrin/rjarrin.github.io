@@ -144,12 +144,12 @@ const Work = () => {
                       {/* Overlay */}
                       <div className="absolute top-0 bottom-0 w-full h-full bg-black/10 z-10"></div>
                       {/* Image */}
-                      <div className="relative w-full h-full">
+                      <div className="w-full h-full">
                         <Image
                           src={project.image}
-                          fill
-                          className="object-cover"
+                          className="object-contain"
                           alt=""
+                          fill
                         />
                       </div>
                     </div>

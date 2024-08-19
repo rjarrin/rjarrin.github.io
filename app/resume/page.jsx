@@ -33,16 +33,16 @@ import { AiOutlineConsoleSql } from "react-icons/ai";
 const about = {
   title: "About me",
   descrption:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum sit debitis soluta quisquam architecto autem placeat quibusdam corrupti, totam reprehenderit. Sint quia, adipisci aliquid soluta perspiciatis quibusdam veniam voluptate fugiat?",
+    "I am a passionate computer engineer who graduated with a Master's degree from the University of Guelph in 2023, specializing in artificial intelligence with a focus on machine learning and big data. My journey in AI is driven by a deep enthusiasm for various aspects of this transformative field.\nI have a strong interest in developing and optimizing machine learning algorithms, such as neural networks, decision trees, and support vector machines, with an emphasis on improving model accuracy, efficiency, and scalability. Working with large datasets is another area I enjoy, as I am skilled in cleaning and preprocessing data and employing statistical techniques to uncover insights that drive machine learning models. Language technologies fascinate me, particularly in the realm of natural language processing, where I focus on sentiment analysis, machine translation, and building chatbots and virtual assistants.My passion extends to computer vision, where I am dedicated to teaching machines to interpret and understand visual information, including image recognition, object detection, and video analysis. I am also excited about reinforcement learning, which involves creating systems that learn to make decisions through trial and error, often applied in robotics, gaming, and autonomous vehicles. Ensuring that AI systems are fair, transparent, and ethical is a commitment of mine, as I am deeply concerned about the societal impacts of machine learning.\nIn the healthcare sector, I am enthusiastic about applying machine learning to improve outcomes, such as developing predictive models for disease diagnosis and personalized medicine. I am also interested in automated machine learning (AutoML), which simplifies the machine learning process through automation, making it more accessible to non-experts. Tackling the challenges of deploying machine learning models in real-world environments is something I find rewarding, as I work to ensure they can handle large-scale data and provide reliable results. I am dedicated to staying at the cutting edge of research and innovation, contributing to advancements that push the boundaries of what machine learning can achieve.\nBeyond my academic pursuits, I have experience as the head teaching assistant for programming courses at my university. My responsibilities included marking, grading, hosting office hours and seminars, leading academic discussions, and developing automated grading tools. In my spare time, I enjoy developing website applications and Android apps, gaming, and spending quality time with my family.",
   info: [
     {
       fieldName: "Name",
       fieldValue: "RJarrin",
     },
-    {
-      fieldName: "Phone Number",
-      fieldValue: "Google Voice Number",
-    },
+    // {
+    //   fieldName: "Phone Number",
+    //   fieldValue: "Google Voice Number",
+    // },
     {
       fieldName: "Experience",
       fieldValue: "6+ Years",
@@ -62,38 +62,37 @@ const about = {
 const experience = {
   icon: "/assets/resume/badge.svg",
   title: "My experience",
-  descrption:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos inventore ea quos excepturi dolores, odio id vero accusantium officiis sequi, optio iure error labore maiores deserunt voluptatibus ipsam nulla ipsum?",
+  descrption: "",
   items: [
     {
-      company: "Tech Solutions Inc.",
+      company: "PharmaChoice Canada",
       position: "Full Stack Developer",
-      duration: "2022 - Present",
+      duration: "2023 - Present",
     },
     {
-      company: "Web Design Studio",
-      position: "Front-End Developer Intern",
-      duration: "Summer 2021",
+      company: "Concordia University - Pediatric Public Health Psychology Lab",
+      position: "Research Assistant",
+      duration: "Summer 2022",
     },
     {
-      company: "E-commerce Startup",
-      position: "Freelance Web Developer",
-      duration: "2020 - 2021",
+      company: "Fiverr",
+      position: "Freelance Web and Android Developer",
+      duration: "2020 - Present",
     },
     {
-      company: "Tech Academy",
+      company: "University of Guelph",
       position: "Teaching Assistant",
-      duration: "2019 - 2020",
+      duration: "2018 - 2021",
     },
     {
-      company: "Digital Agency",
-      position: "UI/UX Designer",
-      duration: "2018 - 2019",
+      company: "Electrolux Canada",
+      position: "The Home Depot Vendor Support",
+      duration: "2017 - 2022",
     },
     {
-      company: "Software Development Firm",
-      position: "Junior Developer",
-      duration: "2017 - 2018",
+      company: "Zumba Pa'Ti",
+      position: "IT Support Technician",
+      duration: "2020 - Present",
     },
   ],
 };
@@ -102,11 +101,10 @@ const experience = {
 const education = {
   icon: "/assets/resume/cap.svg",
   title: "My education",
-  descrption:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos inventore ea quos excepturi dolores, odio id vero accusantium officiis sequi, optio iure error labore maiores deserunt voluptatibus ipsam nulla ipsum?",
+  descrption: "",
   items: [
     {
-      instituion: "Online Course Platform",
+      instituion: "The Odin Project",
       degree: "Full Stack Web Development Bootcamp",
       duration: "2023",
     },
@@ -116,24 +114,19 @@ const education = {
       duration: "2022",
     },
     {
-      instituion: "Online Course",
-      degree: "Programming Course",
+      instituion: "Udemy",
+      degree: "Full Stack Development Courses",
       duration: "2020 - 2021",
     },
     {
-      instituion: "Tech Institute",
-      degree: "Certified Web Developer",
-      duration: "2019",
+      instituion: "Coursera",
+      degree: "IBM AI Developer",
+      duration: "2023 - Present",
     },
     {
-      instituion: "Design School",
-      degree: "Diploma in Graphic Design",
-      duration: "2016 - 2018",
-    },
-    {
-      instituion: "Community College",
-      degree: "Associate Degree in Computer Science",
-      duration: "2014 - 2016",
+      instituion: "University of Guelph",
+      degree: "Masters Degree in Computer Engineering",
+      duration: "2022 - 2023",
     },
   ],
 };
@@ -141,8 +134,7 @@ const education = {
 // Skills data
 const skills = {
   title: "My skills",
-  descrption:
-    "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore excepturi ab nostrum libero, sint sequi debitis quidem suscipit animi delectus soluta eligendi laboriosam, odit nisi odio nemo incidunt labore nihil!",
+  descrption: "",
   skillList: [
     {
       icon: <FaHtml5 />,

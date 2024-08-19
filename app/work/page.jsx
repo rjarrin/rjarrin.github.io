@@ -37,18 +37,18 @@ const projects = [
     stack: [{ name: "Next.js" }, { name: "Tailwind.css" }, { name: "Node.js" }],
     image: "/assets/work/thumb2.png",
     live: "",
-    github: "",
+    github: "https://github.com/rjarrin/gen-ai-image-captioning",
   },
   {
     num: "03",
     category: "frontend",
-    title: "project 3",
+    title: "Nintendo eShop Tracker",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis voluptas quidem, placeat similique ullam quas velit aliquid dolorum. Ratione doloribus tempora deserunt deleniti odit expedita, necessitatibus et eveniet incidunt obcaecati?",
-    stack: [{ name: "Next.js" }, { name: "Tailwind.css" }],
+      "NS Price Tracker is a web application designed to help users track the prices of Nintendo Switch games available on the eShop. It provides a user-friendly interface for browsing through a list of games, adding them to a cart, and searching for specific titles. Built with React and leveraging Vite for fast development, this project aims to offer a seamless experience for users interested in keeping an eye on the latest deals and updates on Nintendo Switch games.",
+    stack: [{ name: "Next.js" }, { name: "React" }],
     image: "/assets/work/thumb3.png",
     live: "",
-    github: "",
+    github: "https://github.com/rjarrin/ns-price-tracker",
   },
 ];
 

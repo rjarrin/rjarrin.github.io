@@ -20,20 +20,20 @@ const projects = [
   {
     num: "01",
     category: "frontend",
-    title: "project 1",
+    title: "Task Master AI: Your Intelligent Personal Organizer",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis voluptas quidem, placeat similique ullam quas velit aliquid dolorum. Ratione doloribus tempora deserunt deleniti odit expedita, necessitatibus et eveniet incidunt obcaecati?",
-    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
+      "An end-to-end full stack Todoist clone, with AI features to help users organize and suggest missing items in their list with adding, deleting tasks, authentication, Next.js, Convex, React, Next.js Auth V5 i.e. Auth.js, Google Sign in, ShadCN UI library, React hook forms, TypeScript, Google AI, TailwindCSS and more",
+    stack: [{ name: "Next.js" }, { name: "Tailwind.css" }, { name: "Node.js" }],
     image: "/assets/work/thumb1.png",
-    live: "",
-    github: "",
+    live: "https://taskmasterai-cyan.vercel.app/",
+    github: "https://github.com/rjarrin/taskmasterai",
   },
   {
     num: "02",
-    category: "fullstack",
-    title: "project 2",
+    category: "ai",
+    title: "Generative AI Image Captioning Apps",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis voluptas quidem, placeat similique ullam quas velit aliquid dolorum. Ratione doloribus tempora deserunt deleniti odit expedita, necessitatibus et eveniet incidunt obcaecati?",
+      "This project employs cutting-edge technology to develop an AI tool that not only views images but comprehends them, generating meaningful descriptions to replace generic image names. The project utilizes the BLIP model from Hugging Face's transformers for image captioning, and integrates Gradio to provide an intuitive user interface. Key features include Python-based implementation, real-world application customization for extracting images from URLs, and generating captions.",
     stack: [{ name: "Next.js" }, { name: "Tailwind.css" }, { name: "Node.js" }],
     image: "/assets/work/thumb2.png",
     live: "",

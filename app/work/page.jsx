@@ -50,6 +50,17 @@ const projects = [
     live: "",
     github: "https://github.com/rjarrin/ns-price-tracker",
   },
+  {
+    num: "04",
+    category: "frontend",
+    title: "Sentiment Analysis Python Notebooks",
+    description:
+      "This repository contains a collection of Python notebooks and a Gradio app designed for performing sentiment analysis on Reddit posts using multiple models. The first notebook demonstrates rapid sentiment analysis by leveraging three popular models: VADER (Valence Aware Dictionary and sEntiment Reasoner), a Transformers-based model, and TextBlob. It includes code to retrieve Reddit post data using the PRAW (Python Reddit API Wrapper) library, perform sentiment analysis on the collected posts, and visualize the results to facilitate comparison among the models. \nThe second notebook provides a comprehensive exploration of sentiment analysis, focusing on the entire process from data collection to model evaluation. This notebook utilizes PRAW to gather Reddit data, followed by extensive data processing and cleanup to prepare the dataset for analysis. It then employs VADER, Transformers, and TextBlob for sentiment analysis, accompanied by advanced data visualization techniques to compare model performance and accuracy. The in-depth analysis allows users to gain insights into the strengths and weaknesses of each model. \nFinally, the repository features a Gradio app that enhances user interaction by allowing individuals to input custom text and receive real-time sentiment analysis results from all three models. This app provides an intuitive interface where users can view sentiment predictions—whether positive, negative, or neutral—from each model, enabling easy comparison of outputs side-by-side. Overall, this project serves as a comprehensive toolkit for sentiment analysis on Reddit data, offering both quick analysis options and in-depth exploration of different models and techniques.",
+    stack: [{ name: "Python" }],
+    image: "/assets/work/thumb4.png",
+    live: "",
+    github: "https://github.com/rjarrin/sentiment-analysis",
+  },
 ];
 
 const Work = () => {
